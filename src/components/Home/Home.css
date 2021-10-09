@@ -1,0 +1,28 @@
+.banner-title {
+    animation: left_to_right 1s ease;
+}
+
+.banner-img {
+    text-align: right;
+    animation: right_to_left 1s ease;
+}
+
+@keyframes right_to_left {
+    from {
+        margin-right: -100%;
+    }
+
+    to {
+        margin-right: 0;
+    }
+}
+
+@keyframes left_to_right {
+    from {
+        margin-left: -100%;
+    }
+
+    to {
+        margin-left: 0;
+    }
+}
